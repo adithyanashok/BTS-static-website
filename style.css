@@ -1,0 +1,190 @@
+header {
+  width: 100%;
+  height: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+
+  /* background: #0c2738; */
+}
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+.left {
+  float: left;
+}
+.right {
+  float: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.back {
+  background: url("images/ground.png");
+  background-repeat: no-repeat;
+  
+}
+.text {
+  position: absolute;
+  top: 8px;
+  left: 41px;
+  color:black;
+}
+.logo{
+    position: absolute;
+  top: 7px;
+  left: 39px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  .member{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .back{
+      position: fixed;
+      z-index: 1;
+  }
+
+
+
+
+   /* body {
+    font-family: tahoma;
+    height: 100vh;
+    background-image: url(https://picsum.photos/g/3000/2000);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  } */
+  
+ 
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: pink;
+    background-color: #f7f5ec;
+  } 
+  .our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    /* position: relative; */
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 2;
+    /* position: relative; */
+  }
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  video {
+    max-width: 100%;
+  }
+  .nav-item{
+      color: black;
+  }
+  .nav-item:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      
+  }
