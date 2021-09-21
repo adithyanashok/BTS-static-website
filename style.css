@@ -184,7 +184,7 @@ header .navbars .nav-item{
   .banner-area {
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://cdn.wallpapersafari.com/15/68/kDFfMW.png); 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://i.ytimg.com/vi/WuaBptIO5JU/maxresdefault.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -194,7 +194,7 @@ header .navbars .nav-item{
     background-size: cover;
     width: 100%;
     height: 100vh;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(https://wallpaperaccess.com/full/4601813.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(images/phone.jpg);
   }
 } 
 
